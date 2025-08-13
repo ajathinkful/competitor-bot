@@ -169,6 +169,13 @@
         here are some links for setting those up.
         https://platform.openai.com/storage/vector_stores
         https://platform.openai.com/assistants
+        - When you set up the assistant:
+            System Instructions:
+            You are a business analyst. Use internal files and public data to generate insights on competitors and compare them to [YOUR COMPANY].
+
+            Make note of the assistant ID
+
+            Make sure its using the vector store you set up with "+ Files"
 
 - Once everything is set up you can start the app locally with poetry run main2
 
